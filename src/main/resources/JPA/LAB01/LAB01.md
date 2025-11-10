@@ -4,9 +4,9 @@
    rekomendacja Github.com - bądź prywatne repozytorium z nadanym dostępem dla prowadzącego).
 2. Zapoznaj sie ze strukturą projektu - nazwy pakietów, encje, enumy. Zwróć uwagę na application.properties w resources.
    Zapoznaj sie z ustawieniami aplikacji (przede wszystkim JPA).
-3. Uruchom aktualną konfiguracje 'FitnessTracker' bądź kliknij prawym ma FitnessTracker i wybierz opcje RUN.
+3. Uruchom aktualną konfiguracje 'pl.wsb.fitnesstracker.FitnessTracker' bądź kliknij prawym ma pl.wsb.fitnesstracker.FitnessTracker i wybierz opcje RUN.
    Obserwuj logi konsoli, zwlaszcza logi Hibernate'a
-4. Po starcie aplikacji (w logach widoczny ostatni wpis "Started FitnessTracker in XXXX seconds (JVM running for
+4. Po starcie aplikacji (w logach widoczny ostatni wpis "Started pl.wsb.fitnesstracker.FitnessTracker in XXXX seconds (JVM running for
    X.XX)") uruchom przeglądarke i przejdź do adresu http://localhost:8080/h2/ (UWAGA: Link może być nie aktualny, zwróć
    uwagę co jest podane w application.properties) Pojawi sie poniższa strona logowania.
    Wpisz odpowiednie username i password jeśli nie zostało uzupelnione automatycznie (sprawdź ustawienia w pliku
