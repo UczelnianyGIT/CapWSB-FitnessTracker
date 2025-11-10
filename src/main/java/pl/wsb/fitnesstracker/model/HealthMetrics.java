@@ -17,7 +17,7 @@ public class HealthMetrics {
     private Double weight; // waga w kg
 
     @Column(nullable = true)
-    private Double bmi; 
+    private Double bmi;
 
     // Relacja 1:1 z User
     @OneToOne
