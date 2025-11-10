@@ -10,7 +10,7 @@ import lombok.ToString;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "users")
+@Table(name = "Users")
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @ToString
@@ -20,6 +20,12 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Nullable
     private Long id;
+
+    @Column(name = "first_name", nullable = false)
+    private String firstName;
+
+    @Column(name = "last_name", nullable = false)
+    private String lastName;
 
     @Column(name = "birthdate", nullable = false)
     private LocalDate birthdate;
@@ -35,6 +41,8 @@ public class User {
 
         this.birthdate = birthdate;
         this.email = email;
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
 
 }
