@@ -19,7 +19,7 @@ public class Statistics {
 
     @Column(name = "recorded_at", nullable = false)
     private LocalDateTime recordedAt;
-    
+
     @ManyToOne
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
